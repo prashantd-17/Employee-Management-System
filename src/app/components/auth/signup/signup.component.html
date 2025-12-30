@@ -1,0 +1,201 @@
+<div
+  class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8
+         bg-gray-50 text-gray-900
+         dark:bg-gray-900 dark:text-gray-100"
+>
+  <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+    <h2
+      class="mt-10 text-center text-2xl/9 font-bold tracking-tight
+             text-gray-900
+             dark:text-white"
+    >
+      Sign up to your account
+    </h2>
+  </div>
+
+  <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+    <div
+  class="mx-auto max-w-2xl rounded-lg p-6
+         bg-white text-gray-900 shadow
+         dark:bg-gray-900 dark:text-gray-100"
+>
+  <h2 class="mb-6 text-xl font-semibold">
+    Personal Information
+  </h2>
+
+  <form class="space-y-5">
+
+    <!-- First & Last Name -->
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+      <div>
+        <label class="mb-1 block text-sm font-medium">
+          First Name <span class="text-red-500">*</span>
+        </label>
+        <input
+          type="text"
+          placeholder="Tony"
+          class="w-full rounded-md px-3 py-2
+                 border border-gray-300
+                 bg-white text-gray-900
+                 focus:ring-2 focus:ring-indigo-500 focus:outline-none
+                 dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+        />
+      </div>
+
+      <div>
+        <label class="mb-1 block text-sm font-medium">
+          Last Name <span class="text-red-500">*</span>
+        </label>
+        <input
+          type="text"
+          placeholder="Stark"
+          class="w-full rounded-md px-3 py-2
+                 border border-gray-300
+                 bg-white text-gray-900
+                 focus:ring-2 focus:ring-indigo-500 focus:outline-none
+                 dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+        />
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div>
+      <label class="mb-1 block text-sm font-medium">
+        Email <span class="text-red-500">*</span>
+      </label>
+      <input
+        type="email"
+        placeholder="tony@example.com"
+        class="w-full rounded-md px-3 py-2
+               border border-gray-300
+               bg-white text-gray-900
+               focus:ring-2 focus:ring-indigo-500 focus:outline-none
+               dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+      />
+    </div>
+
+    <!-- Phone & DOB -->
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+      <div>
+        <label class="mb-1 block text-sm font-medium">
+          Phone
+        </label>
+        <input
+          type="tel"
+          placeholder="1234567891"
+          class="w-full rounded-md px-3 py-2
+                 border border-gray-300
+                 bg-white text-gray-900
+                 focus:ring-2 focus:ring-indigo-500 focus:outline-none
+                 dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+        />
+      </div>
+
+      <div>
+        <label class="mb-1 block text-sm font-medium">
+          Date of Birth
+        </label>
+        <input
+          type="date"
+          class="w-full rounded-md px-3 py-2
+                 border border-gray-300
+                 bg-white text-gray-900
+                 focus:ring-2 focus:ring-indigo-500 focus:outline-none
+                 dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+        />
+      </div>
+    </div>
+
+    <!-- Gender -->
+    <div>
+      <label class="mb-1 block text-sm font-medium">
+        Gender
+      </label>
+      <select
+        class="w-full rounded-md px-3 py-2
+               border border-gray-300
+               bg-white text-gray-900
+               focus:ring-2 focus:ring-indigo-500 focus:outline-none
+               dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+      >
+        <option value="">Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <!-- Address -->
+    <div>
+      <label class="mb-1 block text-sm font-medium">
+        Address
+      </label>
+      <textarea
+        rows="3"
+        class="w-full rounded-md px-3 py-2
+               border border-gray-300
+               bg-white text-gray-900
+               focus:ring-2 focus:ring-indigo-500 focus:outline-none
+               dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+      ></textarea>
+    </div>
+
+    <!-- Emergency Contact -->
+    <div>
+      <label class="mb-1 block text-sm font-medium">
+        Emergency Contact
+      </label>
+      <input
+        type="tel"
+        class="w-full rounded-md px-3 py-2
+               border border-gray-300
+               bg-white text-gray-900
+               focus:ring-2 focus:ring-indigo-500 focus:outline-none
+               dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+      />
+    </div>
+
+    <!-- Actions -->
+    <div class="flex justify-end gap-3 pt-4">
+      <button
+        type="button"
+        class="rounded-md px-4 py-2
+               border border-gray-300
+               text-gray-700 hover:bg-gray-100
+               dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-800"
+      >
+        Cancel
+      </button>
+
+      <button
+        type="submit"
+        class="rounded-md px-4 py-2
+               bg-indigo-600 text-white
+               hover:bg-indigo-500"
+      >
+        Save
+      </button>
+    </div>
+
+  </form>
+</div>
+
+
+    <!-- Footer -->
+    <p
+      class="mt-10 text-center text-sm/6
+             text-gray-500
+             dark:text-gray-400"
+    >
+      Already a member?
+      <a
+        href="#"
+        class="font-semibold
+               text-indigo-600 hover:text-indigo-500
+               dark:text-indigo-400 dark:hover:text-indigo-300"
+      >
+        <a routerLink="/login">SignIn here.</a>
+      </a>
+    </p>
+  </div>
+</div>

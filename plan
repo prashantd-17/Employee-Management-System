@@ -1,0 +1,22 @@
+crud 
+validations to forms
+login and signup
+token based auth role based signin
+pagination to data, use pipe for search
+route based authorization
+use interceptor for token injection
+full error handling
+use lazy loading 
+use signals and new features 
+
+change detection onPush
+trackBy for ngFor
+use translations using json file
+avoid memory leaks 
+use rxjs operators everywhere
+
+state Management using ngRx
+
+custom directives 
+
+use environment files 

@@ -1,0 +1,83 @@
+<nav
+  class="w-full border-b
+         bg-white text-gray-900
+         dark:bg-gray-900 dark:text-gray-100
+         border-gray-200 dark:border-gray-800"
+>
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex h-16 items-center justify-between">
+
+      <!-- Left: Logo -->
+      <div class="flex items-center gap-2">
+        <div
+          class="h-8 w-8 rounded bg-indigo-600 text-white
+                 flex items-center justify-center font-bold"
+        >
+          D
+        </div>
+        <span class="text-lg font-semibold">Dashboard</span>
+      </div>
+
+      <!-- Center: Nav Links -->
+      <!-- <div class="hidden md:flex items-center gap-6">
+        <a
+          href="#"
+          class="text-sm font-medium
+                 text-gray-700 hover:text-indigo-600
+                 dark:text-gray-300 dark:hover:text-indigo-400"
+        >
+          Dashboard
+        </a>
+        <a
+          href="#"
+          class="text-sm font-medium
+                 text-gray-700 hover:text-indigo-600
+                 dark:text-gray-300 dark:hover:text-indigo-400"
+        >
+          Users
+        </a>
+        <a
+          href="#"
+          class="text-sm font-medium
+                 text-gray-700 hover:text-indigo-600
+                 dark:text-gray-300 dark:hover:text-indigo-400"
+        >
+          Departments
+        </a>
+      </div> -->
+
+      <!-- Right: Actions -->
+      <div class="flex items-center gap-4">
+
+        <!-- Theme Toggle -->
+        <button
+          (click)="toggleTheme()"
+          class="rounded-lg p-2
+                 bg-gray-100 hover:bg-gray-200
+                 dark:bg-gray-800 dark:hover:bg-gray-700"
+          title="Toggle theme"
+        >
+          🌙
+        </button>
+
+        <!-- Profile -->
+        <div
+          class="flex items-center gap-2 cursor-pointer
+                 rounded-full px-3 py-1.5
+                 bg-gray-100 dark:bg-gray-800"
+        >
+          <div
+            class="h-8 w-8 rounded-full bg-indigo-500
+                   text-white flex items-center justify-center"
+          >
+            U
+          </div>
+          <span class="hidden sm:block text-sm font-medium">
+            Prashant
+          </span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</nav>
