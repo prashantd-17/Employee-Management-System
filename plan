@@ -20,3 +20,49 @@ state Management using ngRx
 custom directives 
 
 use environment files 
+forgot password functionality
+login using google or facebook or github
+=================================================
+ui 
+dark and light mode
+logout button  
+a profile picture with name 
+use models for confirmation
+use toastr to show errors and messages 
+
+login & signup
+add all validations 
+add stepper
+add forgot password functionality
+add social login optional
+
+user data
+fetch user data
+admin - emp + manager
+manager - all employees
+employee - self details and who is manager 
+add sorting according to role sort by active,inactive, filter by manager, employee
+add searching and pagination 
+admin can edit delete or change emp or manager roles
+manager can make employee active, suspend, remove
+employee can update his details if he is inactive then he can not login
+
+
+authentication & authorization
+admin can access all routes and see all departments managers and employees 
+mangers can only see his department employees 
+employee only see his details 
+
+add token based login and refresh tokens
+
+
+advance 
+use state management using ngRx store 
+social login 
+
+
+
+
+
+
+
